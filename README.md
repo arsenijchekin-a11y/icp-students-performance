@@ -1,5 +1,7 @@
 # Анализ факторов успеваемости учащихся
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/arsenijchekin-a11y/icp-students-performance/blob/main/notebooks/stage2_audit.ipynb)
+
 Цифровой проект по дисциплине ИЦП, 3 курс.
 
 Автор: Чекин Арсений Витальевич, группа ОБ-АД-24, РАНХиГС
@@ -39,10 +41,12 @@ notebooks/
 
 ## Как запустить
 
+Проще всего - нажать кнопку **Open in Colab** вверху. Ноутбук откроется с уже выполненными результатами; при запуске заново («Среда выполнения → Выполнить все») данные подгрузятся с GitHub автоматически.
+
+Локально:
+
 ```
 pip install pandas numpy matplotlib jupyter
 cd notebooks
 jupyter notebook stage2_audit.ipynb
 ```
-
-Или открыть ноутбук в Google Colab и загрузить файл `data/raw/StudentsPerformance.csv`.
